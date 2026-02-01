@@ -4,8 +4,10 @@
 
 ## ویژگی‌ها
 
-- تبدیل خودکار همه عناصر با `dir="auto"` به `dir="rtl"`
-- اعمال `direction: rtl` و `text-align: right` روی این عناصر
+- پشتیبانی از دامنه‌های مختلف با تنظیمات اختصاصی:
+  - **chat.deepseek.com**: اعمال RTL روی `p.ds-markdown-paragraph`
+  - **chatai.mohaymen.ir**: تبدیل عناصر با `dir="auto"` به `dir="rtl"`
+- اعمال `direction: rtl` و `text-align: right`
 - پشتیبانی از عناصر داینامیک (تغییرات DOM)
 - تنظیمات پاپ‌آپ برای فعال/غیرفعال کردن
 - ذخیره‌سازی تنظیمات
